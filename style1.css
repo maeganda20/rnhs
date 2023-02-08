@@ -1,0 +1,51 @@
+body {
+background-image: url(home.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: blueviolet;
+}
+.header h1 {
+  color: black;
+  margin: 0;
+}
+.navbar {
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: blueviolet;
+}
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blueviolet;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+a, .logout {
+  color: whitesmoke;
+
+}
+img {
+  height: 300px;
+  width: 300px;
+
+}
